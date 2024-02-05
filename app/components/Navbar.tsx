@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ToggleMode } from "./ToggleMode";
 
 export default function Navbar() {
     return (
@@ -6,6 +7,7 @@ export default function Navbar() {
             <Link href="/" className="font-bold text-3xl">
                 Dev<span className="text-blue-500">Dazzle</span>
             </Link>
+            <ToggleMode />
         </nav>
     )
 };
